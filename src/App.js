@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import CartItemsMenu from './components/CartItemsMenu';
-import DataMenu from './components/DataMenu';
-import WaiterLogin from './components/pages/WaiterLogin';
+import AppRoutes from './AppRoutes';
 
 function App() {
   return (
     <div className="App ">
-      <WaiterLogin/>
+      <AppRoutes/>
     </div>
   );
 }
